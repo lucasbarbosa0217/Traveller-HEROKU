@@ -1,0 +1,429 @@
+
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.bigimage{
+    width: 80vw;
+    position: relative;
+    border-radius: 10vh;
+    margin: 0 auto;
+
+}
+
+.bigimage img{
+    display: block;
+    width: 100%;
+
+    object-fit: cover;
+    }
+
+    .bigimage h1 {
+      position: absolute;
+        bottom:1rem;
+        font-size: 3rem;
+        margin-left:2rem;
+        color:white;
+        font-weight: 300;
+        text-shadow: 4px 4px 4px black;
+    }
+    .hotel{
+        min-width:300px;
+        max-width: 18vw;
+        box-sizing: border-box;
+        padding: 1rem;
+        flex-shrink: 0;
+        margin-right: 2rem;
+        border-radius: 1rem;
+    }
+
+    .price {text-align: center; font-size: 1.5rem;}
+    .textcard{
+        padding: 1rem 0  0 0  
+    }
+
+.navbar-logo {
+    max-width: 250px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.places{
+    background-color: #f8f8f8;
+}
+
+.second-nav {
+    font-weight: 700;
+}
+
+
+.places button{
+    color:white;
+    cursor: pointer;
+}
+
+footer{
+    background-color:#EEEEEE;
+}
+
+.navbar-collapse{
+    flex-direction: row-reverse;
+  
+}
+
+.underline-pink {
+    border-bottom: 3px solid #FF007A;
+}
+
+.underline-blue {
+    border-bottom: 3px solid #20A1F1;
+}
+
+.underline-purple {
+    border-bottom: 3px solid #A100FF;
+}
+
+.underline-orange {
+    border-bottom: 3px solid #FF5900;
+}
+
+.underline-green {
+    border-bottom: 3px solid #00FF9D;
+}
+
+.breadcrumb {
+    background-color: white;
+}
+
+.line-small {
+    width: 128px;
+}
+
+.login {
+    font-weight: 700;
+}
+
+.gallery {
+    max-width: 100vw;
+}
+
+.line-items{
+    padding: 0.5rem 5rem 2rem 5rem;
+    justify-content: flex-start;
+}
+
+.card-comochegar{
+    width: 100%;
+    margin-right: 0;
+}
+
+
+.fa-star{font-size: 0.8rem;}
+
+
+.description{
+    color: #444;
+    font-size: 0.8rem;
+}
+
+.locais-title{
+    width:fit-content
+}
+
+.img-small{
+    max-width: 40px;
+}
+
+.img-footer{
+    max-width: 50px;
+}
+
+.card-ticket{
+    flex-shrink: 0;
+    flex-grow:0 ;
+    margin-right:2rem;
+    width:300px
+}
+.mapDiv{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.img-rating{
+    max-width: 90px;
+    max-height: 90px ;
+    display: inline;
+}
+
+.indicated-for{
+    font-size:0.8rem;
+}
+
+.name-rating{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.text-rating{
+    width:60%;
+    display: inline;
+    margin-left: 1rem;
+}
+
+.indicated-text{
+    font-size:0.9rem
+}
+
+.rating-desc{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card-locais{
+    flex-shrink: 0;
+    max-width: 300px;
+    margin-right: 3rem;
+}
+.icon {
+    width:15px;
+}
+
+.icon-md {
+    max-width: 30px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+}
+
+.icon-lg {
+    max-width:55px;
+    max-height:55px;
+    width: auto;
+    height: auto;
+}
+
+
+
+.locais-title{
+    width:fit-content
+}
+
+.divisor{
+    height: 0.5rem;
+    width:50%;
+}
+
+.pinkClr{
+    background-color:#FF007A;
+}
+
+.blueClr{
+    background-color:#20A1F1;
+}
+
+
+.purpleClr{
+    background-color: #A100FF;
+
+}
+
+.greenClr {
+    background-color: #00FF9D;
+    color: #003C25;
+    font-weight: 800;
+}
+
+.yellowClr{
+    color:#FFD600;
+}
+
+.orangeClr{
+    background-color:#FF5900;
+}
+
+.btn {
+    border: none;
+    width:100%
+}
+
+.col{display: inline-block;}
+
+#rateMe{
+    text-align: center;
+    margin-bottom:1rem;
+}
+.rounded{
+    border-radius:1rem!important
+}
+
+.locals-card{
+	width:250px;
+	background-color: #fff;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+	border-radius: 24px;
+    margin-left: 1.5rem;
+    flex-shrink: 0;
+}
+
+
+.Card-rate{
+    height: 100%;
+}
+
+.card-title{
+    text-align: center;
+}
+.card-img-top{
+    height:auto;
+}
+
+.flex-rate{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textarea{
+    min-width:200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-left: 1rem;
+    padding:1rem;
+}
+
+textarea{
+    width: 100%;
+    max-height: 200px;
+    min-height: 100px;
+}
+
+.button-area{
+
+    flex-grow: 1;
+    padding:1rem;
+    flex-shrink: 1;
+    margin-left: 1rem;
+}
+
+.yellowBtn{
+    background-color: #FFD600;
+    color:black;
+    width: 100%;
+    top:100%
+}
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+
+
+@media only screen and (max-width: 980px) {
+    .line-bottom {
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+
+
+
+.bigimage{
+    width: 100vw;
+    position: relative;
+    border-radius: 10vh;
+    margin: 0 auto;
+}
+
+.bigimage img{
+    display: block;
+    width: 100%;
+
+    object-fit: cover;
+    }
+
+    .bigimage h1 {
+      position: absolute;
+        bottom:3rem;
+        font-size: 2rem;
+        margin-left:2rem;
+        color:white;
+        font-weight: 300;
+    }
+
+
+  
+
+    
+.rowSegundaNav{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.line-items{
+    padding: 0.5rem 5rem 2rem 1rem;
+    justify-content:inherit;
+}
+
+.hotel{
+    width:50vw
+}
+    
+  }
+
+  
+
+  html, body{
+      max-width: 100vw;
+  }
+
+ 
+  @media only screen and (max-width: 580px) {
+   
+        .hotel{
+            width:75vw;
+            box-sizing: border-box;
+            padding: 1rem;
+            flex-shrink: 0;
+            margin-right: 2rem;
+            border-radius: 1rem;
+        }
+
+
+        .bigimage{
+            width: 80vw;
+            position:inherit;
+            border-radius: 10vh;
+            margin: 0 auto;
+        
+        }
+        
+        .bigimage img{
+            display: block;
+            width: 100%;
+        
+            object-fit: cover;
+            }
+        
+            .bigimage h1 {
+                
+                position: inherit;
+                font-size: 2rem;
+               margin: 0;
+               text-shadow:inherit;
+                color:black;
+                font-weight: 300;
+            }
+         
+    
+  }
