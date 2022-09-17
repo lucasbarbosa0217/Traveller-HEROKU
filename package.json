@@ -1,0 +1,19 @@
+{
+  "name": "traveller-heroku",
+  "version": "1.0.0",
+  "description": "projeto academico sobre hotelaria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasbarbosa0217/Traveller-HEROKU.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasbarbosa0217/Traveller-HEROKU/issues"
+  },
+  "homepage": "https://github.com/lucasbarbosa0217/Traveller-HEROKU#readme"
+}
