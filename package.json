@@ -2,9 +2,10 @@
   "name": "traveller-heroku",
   "version": "1.0.0",
   "description": "projeto academico sobre hotelaria",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"index.html"
   },
   "repository": {
     "type": "git",
