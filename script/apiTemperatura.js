@@ -6,7 +6,7 @@ fetch(
 )
   .then((data) => data.json())
   .then((data) => {
-  
+    console.log(data)
     diasTimeStamp = data.daily.map((obj) =>
     new Date(obj.dt*1000).toLocaleDateString()
    );

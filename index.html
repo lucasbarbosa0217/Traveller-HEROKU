@@ -18,6 +18,7 @@
 
     <title>Traveller - Theatro Municipal</title>
   <script src="https://kit.fontawesome.com/5170ecd3f8.js" crossorigin="anonymous"></script>
+ 
 </head>
 
 <body>
@@ -104,10 +105,10 @@
 
 <div class="container bigimage" title="">
     <img src="img/Galeria.png" alt="Foto de uma janela de hotel mostrando a paísagem de São Paulo." />
-    <h1>Hospedagem em <b>São Paulo</b></h1>
+    <h1>Hospedagem em <b id="city">São Paulo</b></h1>
 </div>
 
-
+<div id="pula"></div>
 
 
   <div class="container p-4 locaisproximos mt-5">
@@ -117,7 +118,7 @@
         </div>
     </div>
   </div>
-  <div class="d-flex flex-row flex-nowrap overflow-auto line-items">
+  <div class="d-flex flex-row flex-nowrap overflow-auto line-items" id="hoteisProximos">
 
 
    <div class="card hotel">
@@ -401,7 +402,14 @@
 </div>
 </div>
 </body>
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCrqbDyptFciQnUFDIOEroh1qrl0i7PUw&callback=initMap&v=weekly"
+type="javascript"
+defer
+></script>
 <script src="script/apiTemperatura.js"></script>
+<script src="script/apiHoteis.js"></script>
+
 
 </html>
 
