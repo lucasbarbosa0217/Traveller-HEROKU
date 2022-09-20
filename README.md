@@ -15,4 +15,6 @@ A implementação da API está localizada no arquivo [apiTemperatura.js](https:/
 Escolhemos a API Tomtom, pois gratuitamente ela retorna os hoteis próximos de suas coordenadas e outras informações relevantes.
 No app ela cria uma lista de hoteís dinamicamente.
 
-A implementação da API está localizada no arquivo [apiTemperatura.js](https://github.com/lucasbarbosa0217/Traveller-Heroku/blob/main/script/apiHoteis.js). 
+A implementação da API está localizada no arquivo [apiHoteis.js](https://github.com/lucasbarbosa0217/Traveller-Heroku/blob/main/script/apiHoteis.js). 
+E também em [apiHotel.js](https://github.com/lucasbarbosa0217/Traveller-Heroku/blob/main/script/apiHotel.js). 
+
