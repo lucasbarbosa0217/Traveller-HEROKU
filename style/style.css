@@ -111,9 +111,17 @@ footer{
     max-width: 100vw;
 }
 
+.grayClr{
+    color:#cecece
+}
+
 .line-items{
     padding: 0.5rem 5rem 2rem 5rem;
     justify-content: flex-start;
+}
+
+.placeholderimg{
+    border-radius: 10vh; height: 40vh;
 }
 
 .card-comochegar{
